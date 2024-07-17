@@ -25,7 +25,7 @@ y = normal(x, mu, sigma)
 
 plt.hist(xs, bins='auto', density=True)
 plt.plot(x, y)
-plt.xlabel('Height(cm')
+plt.xlabel('Height(cm)')
 plt.ylabel('Probabilty Density')
 plt.savefig('fit.png')
 
